@@ -12,4 +12,4 @@ class ItempedidoUpdate(BaseModel):
     subtotal: Optional[float]
     
 class ItemPedido(ItemPedidoCreate):
-    id: int
+    producto_id: int
